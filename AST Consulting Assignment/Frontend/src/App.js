@@ -82,7 +82,7 @@ function App() {
       {/* Box for Managing API Keys */}
       <Paper elevation={3} style={{ padding: '20px', marginBottom: '20px' }}>
         <Typography variant="h5" gutterBottom>Manage API Key</Typography>
-        <Typography variant="body1" gutterBottom>Current API Key: {apiKey}</Typography>
+        {/* <Typography variant="body1" gutterBottom>Current API Key: {apiKey}</Typography> */}
         <Button variant="contained" color="primary" onClick={updateApiKey} style={{ marginTop: '10px' }}>
           Update API Key
         </Button>
@@ -118,9 +118,9 @@ function App() {
       </Paper>
 
       {/* Footer */}
-      <Typography variant="body2" style={{ marginTop: '20px' }}>
+      {/* <Typography variant="body2" style={{ marginTop: '20px' }}>
         You can find the bot at: <Link href="https://telegram-link-to-bot" target="_blank" rel="noopener noreferrer">https://telegram-link-to-bot</Link>
-      </Typography>
+      </Typography> */}
     </Container>
   );
 }
