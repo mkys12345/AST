@@ -12,14 +12,16 @@ import {
   TableHead,
   TableRow,
   IconButton,
-  Link,
+  // eslint-disable-next-line
 } from '@mui/material';
 import DeleteIcon from '@mui/icons-material/Delete';
 
 function App() {
+  // eslint-disable-next-line
   const [apiKey, setApiKey] = useState('');
   const [users, setUsers] = useState([]);
 
+  console.log(apiKey)
   useEffect(() => {
     // Fetch API key and user list on component mount
     fetchApiKey();
